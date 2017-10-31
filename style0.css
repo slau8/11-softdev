@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #3399ff;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h2, p {
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+h3 {
+    margin-left: 1%;
+}
