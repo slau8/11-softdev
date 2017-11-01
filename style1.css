@@ -1,16 +1,24 @@
+body  {
+    font-family: Arial;
+}
+
 h1 {
     text-align: center;
     color: white;
-    background-color: #4CAF50;
+    background-color: red;
     padding: 10px;
+    font-family: Helvetica;
+    font-style: italic;
 }
 
 ul {
     list-style-type: none;
-    width: 10%;
+    width: 15%;
     position: fixed;
     height: 100%;
     overflow: auto;
+    float: right;
+    margin-left: 76%;
 }
 
 li a {
@@ -26,10 +34,10 @@ li a:hover {
 }
 
 h2, p {
-    margin-left: 25%;
-    margin-right: 10%;
+    margin-right: 30%;
+    margin-left: 5%;
 }
 
 h3 {
-    margin-left: 1%;
+    margin-left: 80%;
 }
