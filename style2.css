@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Contrail+One|Courgette|Lato|Passion+One');
+
+#head1 {
+    text-align: center;
+    color: white;
+    background-color: #3399ff;
+    padding: 10px;
+    font-family: 'Passion One';
+}
+
+ul {
+    list-style-type: none;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Lato';
+    border: solid;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h2, p {
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+h2 {
+    font-family: 'Contrail One';
+}
+
+h3 {
+    padding-top: 1%;
+    margin-left: 1%;
+    font-family: 'Contrail One';
+}
+
+.navzone, #head1, h2 {
+    text-transform: uppercase;
+}
+
+.extreme {
+    text-align: center;
+}
+
+.prose, .extreme {
+    font-family: 'Lato';
+}
