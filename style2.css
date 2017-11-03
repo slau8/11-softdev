@@ -35,7 +35,7 @@ li a:active {
 
 #head1 {
     text-align: center;
-    text-shadow: 4px 4px #DB504A, -4px 4px #DB504A, 4px -4px #DB504A, -4px -4px #DB504A;
+    text-shadow: 4px 4px #DB504A;
     color: white;
     background-color: #3A7CA5;
     padding: 1px;
