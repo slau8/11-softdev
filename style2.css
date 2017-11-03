@@ -1,58 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Contrail+One|Courgette|Lato|Passion+One');
 
-#head1 {
-    text-align: center;
-    color: white;
-    background-color: #3399ff;
-    padding: 10px;
-    font-family: 'Passion One';
-}
-
 ul {
     list-style-type: none;
-    width: 15%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
 }
 
 li a {
     display: block;
-    color: #000;
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'Lato';
-    border: solid;
+    margin-bottom: 2px;
+    border: solid 1px #16425B;
+    color: #16425B;
 }
 
 li a:hover {
-    background-color: #4CAF50;
+    background-color: #3A7CA5;
     color: white;
+    border: none;
+    margin-bottom: 4px;
 }
 
-h2, p {
-    margin-left: 25%;
-    margin-right: 10%;
+li a:active {
+  animation: example 3s linear infinite;
+}
+
+@keyframes example {
+  0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: green;}
+  75% {background-color: blue;}
+  100% {background-color: purple;}
+}
+
+#head1 {
+    text-align: center;
+    text-shadow: 3px 3px #DB504A, -3px 3px #DB504A, 3px -3px #DB504A, -3px -3px #DB504A;
+    color: white;
+    background-color: #3A7CA5;
+    padding: 1px;
+    font-family: 'Passion One';
+    font-size: 150%;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Contrail One';
+    text-transform: uppercase;
+    font-size: 175%;
+    color: #DB504A;
+    margin-top: 6%;
+    margin-left: 25%;
+    margin-right: 10%;
 }
 
 h3 {
     padding-top: 1%;
-    margin-left: 1%;
+    margin-left: 25%;
+    color: #DB504A;
     font-family: 'Contrail One';
 }
 
-.navzone, #head1, h2 {
+.navzone {
     text-transform: uppercase;
+    width: 15%;
+    overflow: auto;
+    float: left;
+    margin-top: 5%;
+    /*
+    float: left;
+      has same functionality as:
+    position: fixed;
+    height: 100%;*/
 }
+
+.prose {
+    font-family: 'Lato';
+    margin-left: 25%;
+    margin-right: 10%;
+    color: #16425B;
+}
+
 
 .extreme {
-    text-align: center;
-}
-
-.prose, .extreme {
     font-family: 'Lato';
+    text-align: center;
+    color: #16425B;
 }
